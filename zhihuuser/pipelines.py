@@ -7,7 +7,7 @@
 
 
 import pymongo
-
+#存储数据至mongodb
 class MongoPipeline(object):
 
     def __init__(self, mongo_uri, mongo_db):
